@@ -1,1 +1,1 @@
-# AI4WaterSystems
+# AI4WaterSystems, by Claudia Bertini

@@ -1,13 +1,18 @@
-name: AI4water
+# This is a comment explaining the environment
+name: my_env  # This is an inline comment
+
 channels:
-  - conda-forge
+  - conda-forge  # Using conda-forge for up-to-date packages
   - defaults
+
 dependencies:
-  - python=3.9
-  - numpy
-  - matplotlib
-  - pandas
-  - scikit-learn
+  - python=3.9  # Specifying Python version
+  - numpy       # Numerical computing
+  - matplotlib  # Plotting library
+  - pandas      # Data analysis
+  - scikit-learn  # Machine learning
+
+  # Using pip for packages not available in Conda
   - pip
   - pip:
-      - m5py
+      - m5py  # Installed via pip
